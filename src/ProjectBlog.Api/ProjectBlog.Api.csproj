@@ -11,4 +11,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectBlog.Core\ProjectBlog.Core.csproj" />
+    <ProjectReference Include="..\ProjectBlog.Data\ProjectBlog.Data.csproj" />
+  </ItemGroup>
+
 </Project>
